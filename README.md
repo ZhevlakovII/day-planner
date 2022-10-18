@@ -1,3 +1,5 @@
+![Language badge](https://img.shields.io/badge/Language-Kotlin-blue?style=flat=appveyor)
+
 # Language
 1. [Русский](#русский)
 2. [English](#english)
