@@ -22,7 +22,7 @@
 ## Стек
 - [Kotlin](https://kotlinlang.org/)
 - MVVM/MVI (открыт вопрос о использовании стейтов и эвентов с бойлерплейтом)
-- [Room](https://developer.android.com/training/data-storage/room), [SharedPreferences](), LiveData/Flow (возможно LiveData -> Flow)
+- [Room](https://developer.android.com/training/data-storage/room), [SharedPreferences](https://developer.android.com/training/data-storage/shared-preferences), LiveData/Flow (возможно LiveData -> Flow)
 - [Coroutines](https://developer.android.com/kotlin/coroutines) (~~Куда же без них!~~)
 - Jetpack navigation/Odyssey (что смогу, то и сделаю)
 - [Jetpack Compose](https://developer.android.com/jetpack/compose) (~~Вау, он собрал весь смузи-стек!~~) + Material3
