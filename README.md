@@ -25,13 +25,14 @@
 - [Room](https://developer.android.com/training/data-storage/room), [SharedPreferences](https://developer.android.com/training/data-storage/shared-preferences), LiveData/Flow (возможно LiveData -> Flow)
 - [Coroutines](https://developer.android.com/kotlin/coroutines) (~~Куда же без них!~~)
 - Jetpack navigation/Odyssey (что смогу, то и сделаю)
-- [Jetpack Compose](https://developer.android.com/jetpack/compose) (~~Вау, он собрал весь смузи-стек!~~) + Material3
+- [Jetpack Compose](https://developer.android.com/jetpack/compose) (~~Вау, он собрал весь смузи-стек!~~) + Material3(https://m3.material.io/)
 - Dagger2/Hilt
 - И, конечно же, [Clean Architecture](https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html) + [bonus](https://habr.com/ru/company/mobileup/blog/335382/) (~~**но зачем все эти датасорсы и юзкейсы в одностраничном приложении?**~~)
 
 ## Ошибки и проблемы
-### ~~Самая главная ошибка - проект ещё не создан~~
-### Дизайн отсутствует
+- [X] [Дизайн](https://www.figma.com/file/Y8fhIDy9Dp7zIQ9MgVFYBG/%D0%9F%D1%80%D0%B8%D0%BB%D0%BE%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5?node-id=0%3A1)
+- [ ] Проект создан
+- [ ] Figma design -> Compose
 
 ## Дальнейшее развитие
 В текущих условия рано планировать развитие, однако есть нацеленность на добавление блока заметок.
