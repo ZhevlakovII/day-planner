@@ -13,4 +13,4 @@ dependencyResolutionManagement {
     }
 }
 rootProject.name = "Day Planner"
-include ':app'
+include(":app")
