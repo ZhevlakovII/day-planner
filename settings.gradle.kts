@@ -14,3 +14,4 @@ dependencyResolutionManagement {
 }
 rootProject.name = "Day Planner"
 include(":app")
+include(":domain")

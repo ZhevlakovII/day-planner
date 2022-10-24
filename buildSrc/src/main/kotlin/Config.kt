@@ -17,5 +17,7 @@ object Config {
     const val versionName = "0.1"
 
     const val namespace = "ru.izhxx.dayplanner"
+    const val domainNamespace = "ru.izhxx.domain"
+
     const val applicationName = "ru.izhxx.dayplanner"
 }
