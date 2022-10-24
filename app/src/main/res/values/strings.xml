@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Day Planner</string>
+    <string name="about_programm">There should be something written about me here, but there is nothing to write yet. I\'ll leave a link to github: https://github.com/ZhevlakovII</string>
+    <string name="about">About</string>
 </resources>
