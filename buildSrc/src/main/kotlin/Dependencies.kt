@@ -5,7 +5,7 @@
  *
  * In object:
  * @param version Version of the library used
- * @param dependecy Provided dependency
+ * @param dependency Provided dependency
  */
 object Dependencies {
     object DI {
@@ -23,7 +23,7 @@ object Dependencies {
     object Compose {
         const val composeCompilerVersion = "1.3.2"
         private const val composeVersion = "1.2.1"
-        private const val materialVersion = "1.0.0-rc01"
+        private const val materialVersion = "1.0.0"
 
         //implementation
         const val compose = "androidx.compose.ui:ui:$composeVersion"
@@ -52,7 +52,7 @@ object Dependencies {
         const val viewModel = "androidx.lifecycle:lifecycle-viewmodel-ktx:$viewModelVersion"
         const val activityCompose = "androidx.activity:activity-compose:$activityComposeVersion"
 
-        //androidTestImplementation '1.1.3'
+        //androidTestImplementation
         const val junitTestExt = "androidx.test.ext:junit:$junitTextExtVersion"
         const val espressoCore = "androidx.test.espresso:espresso-core:$espressoCoreVersion"
     }

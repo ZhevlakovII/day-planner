@@ -2,4 +2,9 @@
     <string name="app_name">Day Planner</string>
     <string name="about_programm">There should be something written about me here, but there is nothing to write yet. I\'ll leave a link to github: https://github.com/ZhevlakovII</string>
     <string name="about">About</string>
+    <string name="loading_title">Loading tasks</string>
+    <string name="loading_body">It may take a few seconds</string>
+    <string name="no_items_title">Plan out the day?</string>
+    <string name="no_items_description">Add new tasks every day to plan your day properly</string>
+    <string name="add_task_button_description">Add task button icon</string>
 </resources>

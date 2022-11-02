@@ -2,7 +2,6 @@ plugins {
     id("com.android.application")
     kotlin("android")
     kotlin("kapt")
-    id("com.google.dagger.hilt.android")
 }
 
 android {
@@ -53,14 +52,8 @@ android {
 }
 
 dependencies {
-    //Hilt
-    implementation(Dependencies.DI.daggerHilt)
-    implementation(Dependencies.DI.daggerHiltNavigation)
-    kapt(Dependencies.DI.daggerHiltCompiler)
-
-    //Room
-    implementation(Dependencies.Room.room)
-    kapt(Dependencies.Room.roomCompiler)
+    //App modules
+    implementation(project(":domain"))
 
     //Coroutines
     implementation(Dependencies.Coroutines.coroutines)
