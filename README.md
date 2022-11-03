@@ -5,12 +5,16 @@
 2. [English](#english)
 
 # Русский
+0. [Предисловие](#предисловие)
 1. [О приложении](#о-приложении)
 2. [Стек](#стек)
    1. [Фичи](#фичи)
 3. [Ошибки и проблемы](#ошибки-и-проблемы)
 4. [Дальнейшее развитие](#дальнейшее-развитие)
 5. [Поддержка разработчика](#поддержка-разработчика)
+
+## Предисловие
+Это приложение типичное-нетипичное todoApp. Типичное потому что все их делают, нетипичное - потому что это решение конкретно моей проблемы при планировании дня (а точнее его отсутствии). Сама идея возникла "из пустого места" и было решено совместить хорошее (планирование дня) с полезным (разработка приложения). После чего было дано абстрактное ТЗ дизайнеру (мол хочу так и всё) и нечеткое ТЗ себе как разработчику (о чём я очень жалею), однако это не мешает параллельно вносить правки в ТЗ и продолжать разрабатывать приложение.
 
 ## О приложении
 В начальной стадии приложение представляет из себя простейший планировщик дня с приятным интерфейсом (который ещё и соответствует [Material3](https://m3.material.io/), но это не точно).
@@ -21,12 +25,12 @@
 Конечно же, всё будет дополняться, но базовый функционал перечислен выше.
 ## Стек
 - [Kotlin](https://kotlinlang.org/)
-- MVVM/MVI (открыт вопрос о использовании стейтов и эвентов с бойлерплейтом)
-- [Room](https://developer.android.com/training/data-storage/room), [SharedPreferences](https://developer.android.com/training/data-storage/shared-preferences), LiveData/Flow (возможно LiveData -> Flow)
+- [MVI as MVICore](https://github.com/badoo/MVICore)
+- [Room](https://developer.android.com/training/data-storage/room), [SharedPreferences](https://developer.android.com/training/data-storage/shared-preferences), [Flow](https://developer.android.com/kotlin/flow)
 - [Coroutines](https://developer.android.com/kotlin/coroutines) (~~Куда же без них!~~)
-- Jetpack navigation/Odyssey (что смогу, то и сделаю)
+- [Compose navigation](https://developer.android.com/jetpack/compose/navigation) (Будет ужас)
 - [Jetpack Compose](https://developer.android.com/jetpack/compose) (~~Вау, он собрал весь смузи-стек!~~) + Material3(https://m3.material.io/)
-- Dagger2/Hilt
+- [Koin](https://insert-koin.io/)
 - И, конечно же, [Clean Architecture](https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html) + [bonus](https://habr.com/ru/company/mobileup/blog/335382/) (~~**но зачем все эти датасорсы и юзкейсы в одностраничном приложении?**~~)
 
 ## Ошибки и проблемы
@@ -35,7 +39,7 @@
 - [ ] Figma design -> Compose
 - [ ] Реализация Domain Layer
 - [ ] Реализация Data Layer
-- [ ] Определиться с использованием DI, LiveData/Flow, MVI/MVVM
+- [X] Определиться с использованием DI, LiveData/Flow, MVI/MVVM -> Koin, Flow, MVI as MVICore
 
 ## Дальнейшее развитие
 В текущих условия рано планировать развитие, однако есть нацеленность на добавление блока заметок.
