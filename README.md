@@ -29,7 +29,7 @@
 - [Room](https://developer.android.com/training/data-storage/room), [SharedPreferences](https://developer.android.com/training/data-storage/shared-preferences), [Flow](https://developer.android.com/kotlin/flow)
 - [Coroutines](https://developer.android.com/kotlin/coroutines) (~~Куда же без них!~~)
 - [Compose navigation](https://developer.android.com/jetpack/compose/navigation) (Будет ужас)
-- [Jetpack Compose](https://developer.android.com/jetpack/compose) (~~Вау, он собрал весь смузи-стек!~~) + Material3(https://m3.material.io/)
+- [Jetpack Compose](https://developer.android.com/jetpack/compose) (~~Вау, он собрал весь смузи-стек!~~) + [Material3](https://m3.material.io/)
 - [Koin](https://insert-koin.io/)
 - И, конечно же, [Clean Architecture](https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html) + [bonus](https://habr.com/ru/company/mobileup/blog/335382/) (~~**но зачем все эти датасорсы и юзкейсы в одностраничном приложении?**~~)
 
